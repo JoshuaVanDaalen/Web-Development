@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta content="text/htmlcharset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <title>Week 3 - Basic Calculator</title>
+    <link rel="stylesheet" type="text/css" href="week3.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="output">
+            <input id="sumInput" type="text" value="" placeholder="Sum" />
+            <br />
+            <input id="myInput" type="text" value="" placeholder="Enter Calculation" />
+        </div>
+        <div class="input">
+            <button class="inputButton" type="button" onclick="ClearButton('c');">C</button>
+            <button class="inputButton" type="button" onclick="ClearButton('ce');">CE</button>
+            <button class="inputButton" type="button" onclick="ActionPress('/');"> / </button>
+            <button class="inputButton" type="button" onclick="PiButton('pi');">𝜋</button>
+            <br />
+            <button class="inputButton" type="button" onclick="NumberPress(7);"> 7 </button>
+            <button class="inputButton" type="button" onclick="NumberPress(8);"> 8 </button>
+            <button class="inputButton" type="button" onclick="NumberPress(9);"> 9 </button>
+            <button class="inputButton" type="button" onclick="ActionPress('*');"> x </button>
+            <br />
+            <button class="inputButton" type="button" onclick="NumberPress(4);"> 4 </button>
+            <button class="inputButton" type="button" onclick="NumberPress(5);"> 5 </button>
+            <button class="inputButton" type="button" onclick="NumberPress(6);"> 6 </button>
+            <button class="inputButton" type="button" onclick="ActionPress('-');"> - </button>
+            <br />
+            <button class="inputButton" type="button" onclick="NumberPress(1);"> 1 </button>
+            <button class="inputButton" type="button" onclick="NumberPress(2);"> 2 </button>
+            <button class="inputButton" type="button" onclick="NumberPress(3);"> 3 </button>
+            <button class="inputButton" type="button" onclick="ActionPress('+');"> + </button>
+            <br />
+            <button class="inputButton" type="button" onclick="NegationButton('±');"> ± </button>
+            <button class="inputButton" type="button" onclick="NumberPress(0);"> 0 </button>
+            <button class="equalButton" type="button" onclick="ActionPress('=');"> = </button>
+        </div>
+    </div>
+    <script src="week3.js"></script>
+</body>
+
+</html>
