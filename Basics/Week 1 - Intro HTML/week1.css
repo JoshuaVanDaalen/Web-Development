@@ -1,0 +1,50 @@
+
+body {
+    background-color: darkgray;
+}
+
+.header {
+    background-color:lightsteelblue;
+    text-align: center;
+    padding-top: 0.06%;
+    margin: 0vw 4vw 0vw 4vw;
+}
+
+#body-container, #example {
+    background-color: darkcyan; 
+    margin: 0vw 4vw 0vw 4vw;
+}
+
+.list {
+    height: 40%;
+    width: 300px;
+    margin: 2%;
+    padding: 1vw 3vw 0.75vw 2vw; 
+    display: inline-block;
+    vertical-align: top;    
+}
+
+.ul-list {
+    background-color: darkseagreen;
+    border-style: dashed;
+}
+
+.ol-list {
+    background-color: darkkhaki;
+    border-style: dashed;
+}
+
+#gen-info li {
+    background-color: lightsalmon;
+}
+
+#ext-info li {
+    background-color: paleturquoise;
+}
+
+.footer {
+    padding-top: 0.06%;
+    margin: 0vw 4vw 0vw 4vw;
+}
+
+/* Colours choosen by Serena */

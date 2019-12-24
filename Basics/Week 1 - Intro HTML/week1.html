@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <title> Week 1 - Intro HTML </title>
+    <link rel="stylesheet" type="text/css" href="week1.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Welcome to my basic website.</h1>
+    </div>
+    <div id="body-container">
+        <h2>About me:</h2>
+        <p>
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+            alteration in some form,
+            <br> by injected humour, or randomised words which don't look even slightly believable. If you are going
+            to use a passage
+            <br> of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+            All the Lorem Ipsum
+            <br> generators on the Internet tend to repeat predefined chunks as necessary, making this the first
+            true generator on the
+            <br> Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence
+            structures, to generate
+            <br> Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+            repetition, injected humour,
+            <br> or non-characteristic words etc.
+            <br><br>
+            <a href="#example">
+                View example
+            </a>
+        </p>
+
+        <div id="gen-info" class="list ul-list">
+            <h4 style="text-align:center;">General information</h4>
+            <ul>
+                <li>Age: 26</li>
+                <li>Profession: Systems Administrator</li>
+                <li>State: Melbourne, Australia</li>
+            </ul>
+        </div>
+        <div id="ext-info" class="list ol-list">
+            <h4 style="text-align:center;">Favorite food</h4>
+            <ol>
+                <li>Thin Spaghetti</li>
+                <li>Bolognese Pasta Sauce</li>
+                <li>Pork Mince</li>
+            </ol>
+        </div>
+
+
+    </div>
+
+    <div class="bio" id="example" style="background-color: seagreen;">
+        <h2>Bio:</h2>
+
+        <p id="bioBody">
+
+            The first programing language that I started to learn was the SQL server language,
+            from there I took on Java. A lot of hours went into understanding these new concepts,
+            although I wanted to be able to use what I was learning
+            in the workplace to allow me to engrain the knowledge and learn from mistakes.
+            <br><br>
+            Once I learnt what PowerShell was I became more interested the more I learnt about its functionality,
+            after a few weeks I was understanding what this scripting langage is used for,
+            since then I have used these skills to automate jobs that I perform sometimes Serval times a day.
+            <br>
+            I've found that since creating these modules I'm not worried about missing a task and I feel my time isn't
+            wasted on repeatitive activities.
+            <br><br>
+            I have included the first module I created that allows me to quickly Set the Mailbox Quota of a users
+            Exchange Mailbox.
+            <br><br>
+            The Input takes a Username and the Quota you want to set in GigaBites.
+            <br>
+            The Output is a custom object with fields that let you know the respective values (Note: these values are
+            not formatted by design).
+            <br><br>
+            <img src="Images/Set-MailboxQuota.png" width="720" />
+
+        </p>
+
+        <div class="table">
+            <table id="mailboxQuota">
+                <caption>Mailbox Quota</caption>
+                <tr>
+                    <th>Username</th>
+                    <th>Status</th>
+                    <th>First warning</th>
+                    <th>Prohibit Send Quota</th>
+                    <th>Prohibit Receive Quota</th>
+                </tr>
+                <tr>
+                    <th>UserX</th>
+                    <th>Successful</th>
+                    <th>6.5GB</th>
+                    <th>7GB</th>
+                    <th>7.5GB</th>
+                </tr>
+                <tr>
+                    <td>UserY</td>
+                    <th>Successful</th>
+                    <th>6.5GB</th>
+                    <th>7GB</th>
+                    <th>7.5GB</th>
+                </tr>
+                <tr>
+                    <td>UserZ</td>
+                    <th>Failed</th>
+                    <th>Null</th>
+                    <th>Null</th>
+                    <th>Null</th>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>HTML by <a href="http:\\www.joshuavandaalen.com.au" target="_blank" title="Joshuavandaalen.com.au">
+                Joshua Van Daalen</a>
+            &#169
+            <br><br>
+            <a href="week1-page2.html" target="_top" title="Subscribe">Subscribe</a>
+            <br><br>
+        </p>
+    </div>
+</body>
+
+</html>
