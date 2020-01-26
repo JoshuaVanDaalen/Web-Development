@@ -1,0 +1,19 @@
+
+body{
+    background-color: #333333;
+}
+
+.mydiv{
+    background-color: #42d4f4;
+    height: 50px;
+    width: 200px;
+    margin-top: 5px;
+}
+
+.newstyle{
+    background-color: #4cff00;
+}
+
+.showNewDiv {
+    display: none;
+}
